@@ -57,7 +57,7 @@ while v.isOpened():
     #i na kraju dodajemo u listu frame_diff_list
     frame_diff_list.append(dilate_frame)
     if len(frame_diff_list) == consecutive_frame:
-        #nakon 5 uzastopnih frejmova, sumiramo ih
+        #sumiramo 5 uzastopnih frejmova 
         """
         moze i ovo umjesto sum:
         sum_of_frames = frame_diff_list[0]
